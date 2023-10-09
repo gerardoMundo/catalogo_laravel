@@ -12,6 +12,6 @@ class VerifyCsrfToken extends Middleware
      * @var array<int, string>
      */
     protected $except = [
-        "http://localhost/laravel/catalogo/public/movies"
+        "http://localhost/laravel/catalogo/public/movies/*",
     ];
 }
